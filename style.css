@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    background-color: #2F2E41;
+    color: #C2C2C2;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    justify-content: center;
+}
+
+nav {
+    display: inline-flex;
+    padding-left: 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 607px;
+    padding: 71px 0px 0px 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'JetBrains Mono';
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
+
+}
+
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 89px 0px 0px 0px;
+    width: 1092px;
+    height: 283px;
+}
+
+.divImg {
+    width: 401px;
+    height: 283px;
+    flex-shrink: 0;
+}
+
+p {
+    width: 604px;
+    color: #C2C2C2;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.colorGrayBold {
+    color: #C2C2C2;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'JetBrains Mono';
+}
+
+.colorGreenTitle {
+    color: #00BFA6;
+    font-weight: 700;
+}
+
+.colorGreen {
+    font-family: 'JetBrains Mono';
+    color: #00BFA6;
+    font-weight: 700;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.border {
+
+    margin: 37px 0px;
+    width: 568.001px;
+    height: 1px;
+    background: #00BFA6;
+}
+
+footer {
+    position: fixed;
+    font-family: 'JetBrains Mono';
+    font-size: 14px;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 20px 0;
+    width: 1092px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pickloked {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 20px 20px;
+}
